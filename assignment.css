@@ -15,12 +15,21 @@ body {
 	margin: 2px;
 }
 
+.button {
+	background-color: grey;
+}
+
+.button:hover {
+	background-color: cadetblue;
+}
+
 .board {
 	border: solid;
 	display: flow-root;
 	align-items: stretch;
 	padding: 10px;
 	border-radius: 20px;
+	margin-bottom: 20px;
 }
 
 #ui > span {
