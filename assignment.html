@@ -2,8 +2,24 @@
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="charset" content="UTF-8" />
+		<!--
+        BINGO CHALLENGE!!!
+        Create programmatically (with JS) a BINGO board with 76 cells, from 1 to 76.
+        Create a button to randomize a number from 1 to 76. The same number should be highlighted on the bingo board
+        EXTRA: 
+        - Take ALWAYS a new number (avoid randoming 10 3 times for example)
+        - Create a USER BOARD with random 24 numbers that highlights as the main board does
+        - Let the user choose HOW MANY user boards he's willing to play with and create them.
+        -->
+		<link rel="stylesheet" href="assignment.css" />
+		<script type="text/javascript" src="assignment.js"></script>
 	</head>
 	<body>
-		<section></section>
+		<div id="table"></div>
+		<div id="ui">
+			<span onclick="userBoard(24)">+</span>
+			<span onclick="extract()">⚄</span>
+		</div>
+		<div id="playerField"></div>
 	</body>
 </html>
