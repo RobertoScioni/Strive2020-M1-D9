@@ -14,10 +14,12 @@ body {
 	vertical-align: middle;
 }
 
-#table {
+.board {
 	border: solid;
-	width: 900px;
-	max-width: 900px;
+	display: flow-root;
+	align-items: stretch;
+	padding: 10px;
+	border-radius: 20px;
 }
 
 #ui > span {
@@ -32,7 +34,11 @@ body {
 }
 
 .ticket {
+	margin-right: 20px;
 	margin-top: 20px;
 	max-width: 240px;
 	float: left;
+	padding: 5px;
+	border: solid;
+	border-radius: 10px;
 }
