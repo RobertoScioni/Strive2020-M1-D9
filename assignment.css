@@ -17,6 +17,8 @@ body {
 
 .button {
 	background-color: grey;
+	float: left;
+	display: inline-grid;
 }
 
 .button:hover {
@@ -29,7 +31,6 @@ body {
 	align-items: stretch;
 	padding: 10px;
 	border-radius: 20px;
-	margin-bottom: 20px;
 }
 
 #ui > span {
