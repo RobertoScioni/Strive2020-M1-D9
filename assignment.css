@@ -36,7 +36,6 @@ body {
 .board {
 	border: solid;
 	display: flow-root;
-	align-items: stretch;
 	padding: 10px;
 	border-radius: 20px;
 }
